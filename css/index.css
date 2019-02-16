@@ -35,17 +35,27 @@ div {
 .tabs-header {
   display: flex;
   justify-content: space-evenly;
-  width: 500px;
+  width: 200px;
   flex-flow: wrap;
 }
 
 .tab {
   background: blue;
   color: white;
+  padding: 5px;
+}
+
+.tab:hover {
+  background: darkblue;
 }
 
 .tab-content {
   display: block;
-  width: 500px;
+  width: 200px;
+  height: 60px;
   justify-content: center;
+  background: blue;
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
