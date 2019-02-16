@@ -31,3 +31,21 @@ div {
 .clock-values {
   float: right;
 }
+
+.tabs-header {
+  display: flex;
+  justify-content: space-evenly;
+  width: 500px;
+  flex-flow: wrap;
+}
+
+.tab {
+  background: blue;
+  color: white;
+}
+
+.tab-content {
+  display: block;
+  width: 500px;
+  justify-content: center;
+}
